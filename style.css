@@ -1,0 +1,90 @@
+body, p {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+    padding: 2em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav img {
+    height: 20px;
+}
+
+.google-icon {
+    width: 32px;
+    height: 32.5px;
+    border-radius: 60%;
+    margin-top: -6px;
+}
+
+main {
+    width: 50%;
+    margin: 1em auto 6.9em;
+    text-align: center;
+}
+
+main img {
+    height: 200px;
+}
+
+input {
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+.btns-container {
+    margin-top: 1em;
+}
+
+.btns-container button {
+    padding: 1em;
+    border: none;
+}
+
+main .span {
+    margin-top: 25px;
+}
+
+main .span a {
+    margin-right: 0.3em;
+    color: #0066CC;
+}
+
+footer {
+    background: rgb(218, 211, 211);
+}
+
+.footer-top {
+    padding: 0.8em;
+}
+
+.footer-bottom {
+    padding: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid gray;
+}
+
+.left a {
+    margin-right: 1em;
+}
+
+.right a {
+    margin-right: 1em;
+}
